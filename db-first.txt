@@ -1,0 +1,39 @@
+Concessionaria
+
+id									INT
+Marca								VARCHAR(25)
+Modello								VARCHAR(25)
+Anno_mese_immatricolazione			DATE
+Colore								VARCHAR(25)
+Carburante							VARCHAR(15)
+Potenza_in_cv						VARCHAR(6)
+Classificazione_euro				VARCHAR(10)
+Neopatentati						TINYINT
+Numero_posti						TINYINT
+Numero_portiere						TINYINT
+Precedenti_proprietari				TINYINT
+Kilometri							VARCHAR(9)
+Carrozzeria							VARCHAR(25)
+Cambio								VARCHAR(20)
+Cerchi_in_lega						TINYINT
+Tettuccio_panoramico				TINYINT
+Cruise_control						TINYINT
+Cruise_control_adattivo				TINYINT
+Sensori_parcheggio					TINYINT
+Sedili_riscaldati					TINYINT
+Key_less							TINYINT
+Bluetooth							TINYINT
+Computer_di_bordo					TINYINT
+Apple_carplay						TINYINT
+Android_auto						TINYINT
+Schermo_touchscreen					TINYINT
+Arirbag								TINYINT
+Fari_led							TINYINT
+Fendinebbia							TINYINT
+Ruotino								TINYINT
+Kit_riparazione						TINYINT
+Manutenzione_regolare				TINYINT
+Mai_incidentata						TINYINT
+Prezzo								DECIMAL(8, 2)
+Possibilita_finanziamento			TINYINT
+Note								VARCHAR(255)
