@@ -1,42 +1,42 @@
 Concessionaria
 
 id									INT, PRIMARY KEY NOT NULL, AUTO_INCREMENT, UNIQUE, INDEX 
-Marca								VARCHAR(25), NOT NULL, INDEX
-Modello								VARCHAR(25), NOT NULL, INDEX
-Anno_mese_immatricolazione			DATE, NOT NULL
-Colore								VARCHAR(25), NULL
-Carburante							VARCHAR(15), NOT NULL
-Cilindrata							VARCHAR(6), NOT NULL
-Potenza_in_cv						VARCHAR(6), NULL
-Numero_telaio						CHAR(17), NOT NULL, UNIQUE
-Classificazione_euro				VARCHAR(10), NULL
-Neopatentati						TINYINT, NULL, DEFAULT(1)
-Numero_posti						TINYINT, NULL
-Numero_portiere						TINYINT, NULL
-Precedenti_proprietari				TINYINT, NULL, DEFAULT(1)
-Kilometri							VARCHAR(9), NOT NULL
-Stato_carrozzeria					VARCHAR(25), NULL, DEFAULT("buono stato)
-Cambio								VARCHAR(20), NOT NULL
-Cerchi_in_lega						TINYINT, NULL, DEFAULT(0)
-Tettuccio_panoramico				TINYINT, NULL, DEFAULT(0)
-Cruise_control						TINYINT, NULL, DEFAULT(0)
-Cruise_control_adattivo				TINYINT, NULL, DEFAULT(0)
-Sensori_parcheggio					TINYINT, NULL, DEFAULT(0)
-Sedili_riscaldati					TINYINT, NULL, DEFAULT(0)
-Key_less							TINYINT, NULL, DEFAULT(0)
-Bluetooth							TINYINT, NULL, DEFAULT(0)
-Computer_di_bordo					TINYINT, NULL, DEFAULT(0)
-Apple_carplay						TINYINT, NULL, DEFAULT(0)
-Android_auto						TINYINT, NULL, DEFAULT(0)
-Schermo_touchscreen					TINYINT, NULL, DEFAULT(0)
-Arirbag								TINYINT, NULL, DEFAULT(0)
-Fari_led							TINYINT, NULL, DEFAULT(0)
-Fendinebbia							TINYINT, NULL, DEFAULT(0)
-Ruotino								TINYINT, NULL, DEFAULT(0)
-Kit_riparazione						TINYINT, NULL, DEFAULT(0)
-Manutenzione_regolare				TINYINT, NULL, DEFAULT(1)
-Mai_incidentata						TINYINT, NULL, DEFAULT(1)
-Prezzo								DECIMAL(8, 2), NOT NULL
-Possibilita_finanziamento			TINYINT, NULL, DEFAULT(1)
-Possibilita_noleggio				TINYINT, NULL, DEFAULT(0)
-Note								VARCHAR(255), NULL
+marca								VARCHAR(25), NOT NULL, INDEX
+modello								VARCHAR(25), NOT NULL, INDEX
+anno_mese_immatricolazione			DATE, NOT NULL
+colore								VARCHAR(25), NULL
+carburante							VARCHAR(15), NOT NULL
+cilindrata							VARCHAR(6), NOT NULL
+potenza_in_cv						VARCHAR(6), NULL
+numero_telaio						CHAR(17), NOT NULL, UNIQUE
+classificazione_euro				VARCHAR(10), NULL
+neopatentati						TINYINT, NULL, DEFAULT(1)
+numero_posti						TINYINT, NULL
+numero_portiere						TINYINT, NULL
+precedenti_proprietari				TINYINT, NULL, DEFAULT(1)
+kilometri							VARCHAR(9), NOT NULL
+stato_carrozzeria					VARCHAR(25), NULL, DEFAULT("buono stato)
+cambio								VARCHAR(20), NOT NULL
+cerchi_in_lega						TINYINT, NULL, DEFAULT(0)
+tettuccio_panoramico				TINYINT, NULL, DEFAULT(0)
+cruise_control						TINYINT, NULL, DEFAULT(0)
+cruise_control_adattivo				TINYINT, NULL, DEFAULT(0)
+sensori_parcheggio					TINYINT, NULL, DEFAULT(0)
+sedili_riscaldati					TINYINT, NULL, DEFAULT(0)
+key_less							TINYINT, NULL, DEFAULT(0)
+bluetooth							TINYINT, NULL, DEFAULT(0)
+computer_di_bordo					TINYINT, NULL, DEFAULT(0)
+apple_carplay						TINYINT, NULL, DEFAULT(0)
+android_auto						TINYINT, NULL, DEFAULT(0)
+schermo_touchscreen					TINYINT, NULL, DEFAULT(0)
+arirbag								TINYINT, NULL, DEFAULT(0)
+fari_led							TINYINT, NULL, DEFAULT(0)
+fendinebbia							TINYINT, NULL, DEFAULT(0)
+ruotino								TINYINT, NULL, DEFAULT(0)
+kit_riparazione						TINYINT, NULL, DEFAULT(0)
+manutenzione_regolare				TINYINT, NULL, DEFAULT(1)
+mai_incidentata						TINYINT, NULL, DEFAULT(1)
+prezzo								DECIMAL(8, 2), NOT NULL
+possibilita_finanziamento			TINYINT, NULL, DEFAULT(1)
+possibilita_noleggio				TINYINT, NULL, DEFAULT(0)
+note								VARCHAR(255), NULL
