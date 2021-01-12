@@ -1,0 +1,42 @@
+Hotel
+
+Camere
+
+id
+nome
+metri_quadri
+numero_persone_max
+prezzo_per_notte
+
+letti_matrimoniali
+letti_singoli
+telefono
+free_wifi
+cassaforte
+tv_satellitare
+frigobar
+numero_balconi
+terrazza
+vista
+aria_condizionata
+animali_ammessi
+
+
+note: il bagno privato è fatto a parte con cinque schemi prestabiliti.. ogni id è uno schema.. la FK id_bagno_privato in comfort pescherà un id quindi uno schema prestabilito dell'allestimento del bagno
+
+bagno_privato
+doccia
+vasca
+vasca_idromassaggio
+asciugacapelli
+set_bagno_cortesia_per_ogni_ospite
+
+
+prenotazioni (passate, presenti e future)
+data_chech_in
+data_check_out
+nome_prenotante
+cognome_prenotante
+
+nota:gli ospiti saranno fatti a parte e dipenderanno da ogni singola prenotazione.. il massimo degli ospiti è 5
+
